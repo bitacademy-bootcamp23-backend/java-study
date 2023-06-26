@@ -10,6 +10,11 @@ public class Prob4 {
 		System.out.print("문자열을 입력하세요 : ");
 		String text = scanner.nextLine();
 
+		System.out.println(text);
+		
+		System.out.println(text.length());
+		System.out.println(text.charAt(0));
+		System.out.println(text.charAt(1));
 		
 		scanner.close();
 	}
