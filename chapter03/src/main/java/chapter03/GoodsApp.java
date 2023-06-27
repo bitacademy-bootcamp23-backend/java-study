@@ -26,5 +26,10 @@ public class GoodsApp {
 
 		Goods goods3 = new Goods();
 		System.out.println("상품 갯수:" + Goods.countOfGoods);
+		
+		
+		Goods tv = new Goods("TV", 10000, 10, 50);
+		tv.showInfo();
+		
 	}
 }

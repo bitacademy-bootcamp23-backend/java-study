@@ -10,8 +10,13 @@ public class SongTest {
 		song.setTitle("좋은날");
 		song.setYear(2010);
 		song.setTrack(3);
-		
 		song.show();
+		
+		Song song2 = new Song("Love Dive", "Jamine Parker 3명외", "IVE", "Love Dive", 2022, 1);
+		song2.show();
+		
+		Song song3 = new Song("사건의 지평선", "윤하");
+		song3.show();
 	}
 
 }
