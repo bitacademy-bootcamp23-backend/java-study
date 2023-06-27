@@ -13,6 +13,7 @@ public class GoodsApp {
 		
 		System.out.println("이름:" + camera.getName());
 		System.out.println("가격:" + camera.getPrice());
+		
 		System.out.println("재고:" + camera.getCountStock());
 		System.out.println("판매량:" + camera.getCountSold());
 
