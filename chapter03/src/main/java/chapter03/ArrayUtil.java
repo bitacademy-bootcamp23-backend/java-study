@@ -17,7 +17,7 @@ public class ArrayUtil {
 		return result;
 	}
 
-	public static int[] doubletoInt(double[] d) {
+	public static int[] doubleToInt(double[] d) {
 		int[] result = null;
 		
 		if(d == null) {
