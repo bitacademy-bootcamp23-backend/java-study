@@ -11,9 +11,23 @@ public class Main {
 		Point point2 = new Point(200, 150);
 		drawPoint(point2);
 		point2.show(false);
+		
+//		Point point3 = new ColorPoint();
+//		point3.setX(200);
+//		point3.setY(100);
+		Point point3 = new ColorPoint(200, 100, "red");
+		point3.setX(200);
+		point3.setY(100);
+		((ColorPoint)point3).setColor("red");
+		drawPoint(point3);
 	}
 	
 	public static void drawPoint(Point point) {
-		point.show();
+		point.show(true);
 	}
+	
+//	public static void drawColorPoint(ColoPoint colorPoint) {
+//		colorPoint.show();
+//	}
+	
 }
