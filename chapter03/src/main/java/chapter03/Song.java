@@ -15,9 +15,8 @@ public class Song {
 	}
 	
 	public Song(String title, String artist) {
-		//this.title = title;
-		//this.artist = artist;
-	
+//		this.title = title;
+//		this.artist = artist;
 		this(title, artist, "", "", 0, 0);
 	}
 	
