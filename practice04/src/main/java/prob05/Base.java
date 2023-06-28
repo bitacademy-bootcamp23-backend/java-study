@@ -5,6 +5,7 @@ public class Base {
 		if( state.equals( "낮" ) ) {
 			day();
 		} else {
+			
 			night();
 		}
 	}
