@@ -1,17 +1,17 @@
 package prob03;
 
 public class CurrencyConverter {
+	private static double rate;
 
 	public static void setRate(double rate) {
-		
+		CurrencyConverter.rate = rate;
 	}
 
-	public static double toDollar(double won) {
-		return 0;
+	public static double toDollar(double krw) {
+		return krw / rate;
 	}
 
 	public static double toKRW(double dollar) {
-		return 0;
+		return dollar * rate;
 	}
-
 }
