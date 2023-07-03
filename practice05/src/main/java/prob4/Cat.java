@@ -4,8 +4,6 @@ public class Cat implements Soundable {
 
 	@Override
 	public String sound() {
-		
-		return null;
+		return "야옹";
 	}
-
 }
